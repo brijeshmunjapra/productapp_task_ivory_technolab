@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  color: #fff;
+  background-color: #000000;
+  font-size: 35px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+.products {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  background-color: #fff;
+  margin: 25px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+img {
+  padding: 25px;
+  width: 200px;
+  height: 200px;
+}
+
+.producttitle {
+  padding: 10px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #8f81b3;
+  height: 50px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+.category {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+}
+
+/* .category:focus {
+  color: white;
+  background: transparent;
+} */
+
+.sortingDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.sorting {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  margin: 20px 60px 10px 10px;
+  padding: 5px;
+  border: 2px solid #8f81b3;
+  border-radius: 10px;
+  outline: none;
+}
+.logo {
+  cursor: pointer;
+  flex: 0.5;
+  align-items: center;
+}
+
+.navbuttons {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cancelfilter {
+  background: white;
+  border: none;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.wrapper {
+  min-height: 100vh;
+  background-color: #f1f3f4;
+}
+.search {
+  outline: none;
+  border-radius: 10px;
+  width: 200px;
+  height: 20px;
+}
+
+.searchDiv label {
+  font-size: 20px;
+}
+.searchDiv {
+  align-items: center;
+}
+.addproduct {
+  display: grid;
+  margin: 10px;
+}
+
+.addproduct input {
+  width: 100%;
+  outline: none;
+}
+.addform {
+  display: flex;
+}
+
+.editContainer input {
+  margin-right: 10px;
+}
+
+.editButton,
+.deleteButton {
+  padding: 5px;
+}
+.inputs input {
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+.inputlables,
+.inputs {
+  display: grid;
+  align-items: center;
+}
+.editContainer {
+  display: flex;
+}
+
+.productContent {
+  display: flex;
+  flex-direction: column;
+}
+.inputlables {
+  flex: 1;
+}
+.inputs {
+  flex: 2;
+}
